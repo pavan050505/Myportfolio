@@ -1,5 +1,6 @@
 import React from 'react'
 import useInView from '../hooks/useInView'
+import pbResume from '../assets/PB Resume.pdf'
 
 export default function AboutExtras() {
   const [aboutExtraLeftRef, aboutExtraLeftVisible] = useInView()
@@ -50,7 +51,7 @@ export default function AboutExtras() {
             <div className="about-card about-cta">
               <div className="cta-title">WANNA WORK TOGETHER?</div>
               <div className="cta-subtitle">My resume is one click away</div>
-              <a href="/resume.pdf" className="btn-download">Download for free <span role="img" aria-label="smile">😅</span></a>
+              <a href={pbResume} target="_blank" rel="noopener noreferrer" className="btn-download">Download for free <span role="img" aria-label="smile">😅</span></a>
             </div>
           </div>
         </div>

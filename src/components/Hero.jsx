@@ -1,6 +1,7 @@
 import React from 'react'
 import { DotLottieReact } from '@lottiefiles/dotlottie-react'
 import CountUp from './CountUp'
+import pbResume from '../assets/PB Resume.pdf'
 
 export default function Hero() {
   return (
@@ -34,7 +35,7 @@ export default function Hero() {
             <a href="https://github.com/pavan050505" target="_blank" rel="noopener noreferrer" className="hero-btn primary">
               <span className="star-icon">⭐</span> Star Me On Github
             </a>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="hero-btn secondary">
+            <a href={pbResume} target="_blank" rel="noopener noreferrer" className="hero-btn secondary">
               See My Resume
             </a>
           </div>
