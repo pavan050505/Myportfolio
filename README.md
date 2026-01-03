@@ -69,13 +69,19 @@ pavan-portfolio/
 git clone https://github.com/pavan050505/pavan-portfolio.git
 
 2️⃣ Navigate to project folder
+```bash
 cd pavan-portfolio
+```
 
 3️⃣ Install dependencies
+```bash
 npm install
+```
 
 4️⃣ Run the development server
+'''bash
 npm run dev
+```
 
 ## 📬 Contact Me
 
