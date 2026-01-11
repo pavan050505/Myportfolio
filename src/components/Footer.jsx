@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="footer-section">
       <div className="footer-container">
-        <div className="footer-left">Copyright ©{new Date().getFullYear()} All right reserved - 2025</div>
+        <div className="footer-left">Copyright ©All right reserved - 2026</div>
         <div className="footer-center">
           <img src={pavanLogo} alt="Pavan Bhosle" className="footer-logo" />
         </div>

@@ -51,7 +51,7 @@ export default function AboutExtras() {
             <div className="about-card about-cta">
               <div className="cta-title">WANNA WORK TOGETHER?</div>
               <div className="cta-subtitle">My resume is one click away</div>
-              <a href={pbResume} target="_blank" rel="noopener noreferrer" className="btn-download">Download for free <span role="img" aria-label="smile">😅</span></a>
+              <a href={pbResume} target="_blank" rel="noopener noreferrer" className="btn-download">Download for free</a>
             </div>
           </div>
         </div>
